@@ -5,7 +5,7 @@ var TileJSONs = [
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime.jsonp',
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-robbery.jsonp',
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-theft.jsonp',
-    'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp'
+    'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp',
     'http://a.tiles.mapbox.com/v3/mattmakesmaps.FUDS_AK_V2.jsonp'
 ];
 
