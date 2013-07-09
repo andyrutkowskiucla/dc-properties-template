@@ -6,6 +6,7 @@ var TileJSONs = [
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-robbery.jsonp',
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-theft.jsonp',
     'http://a.tiles.mapbox.com/v3/mapbox.dc-crime-auto.jsonp'
+    'http://a.tiles.mapbox.com/v3/mattmakesmaps.FUDS_AK_V2.jsonp'
 ];
 
 $('#map').mapbox(TileJSONs, function(map, tiledata) {
@@ -18,6 +19,7 @@ $('#map').mapbox(TileJSONs, function(map, tiledata) {
     map.getLayerAt(4).named('robbery');
     map.getLayerAt(5).named('theft');
     map.getLayerAt(6).named('auto');
+    map.getLayerAt(7).named('ak_fuds');
 
     // Don't composite base layer with other layers
     map.getLayer('base').composite(false);
@@ -29,6 +31,7 @@ $('#map').mapbox(TileJSONs, function(map, tiledata) {
     map.disableLayer('robbery');
     map.disableLayer('theft');
     map.disableLayer('auto');
+    map.disableLayer('ak_fuds');
 
     // Set initial latitude, longitude and zoom level
     map.setCenterZoom({
