@@ -227,7 +227,7 @@ a.zoomer {
 
 .map-tooltip {
     border:none;
-    background:none;
+    background:white;
     border-radius:none;
     -moz-border-radius:none;
     -webkit-border-radius:none;
@@ -238,7 +238,8 @@ a.zoomer {
     top: auto;
     right: 10px;
     border: none;
-    color: white;
+    color: black;
+    font: 1em/1.5em 'OswaldBook',"Arial Narrow",sans-serif;
     font-size: 11px;
     width: 200px;
     margin-left: -100px;
