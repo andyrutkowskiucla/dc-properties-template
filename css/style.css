@@ -240,10 +240,10 @@ a.zoomer {
     border: none;
     color: black;
     font: 1em/1.5em 'OswaldBook',"Arial Narrow",sans-serif;
-    font-size: 11px;
-    width: 200px;
+    font-size: 24px;
+    width: 300px;
     margin-left: -100px;
-    line-height: 16px;
+    line-height: 30px;
     margin-bottom: 20px;
     overflow: visible;
     }
